@@ -1,0 +1,91 @@
+#hearder
+{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.363);
+    height: 70px;
+    border-radius: 10px 10px 0px 0px;
+    -webkit-box-shadow: 6px 8px 34px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 8px 34px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 8px 34px 0px rgba(0,0,0,0.75);
+}
+h1
+{
+    text-align: center;
+     width: 100%;
+}
+.menubtn
+{
+    vertical-align: middle;
+    text-align: center;
+    float: right;
+    height: 100%;
+    width: 100px;
+    box-shadow: 6px 8px 34px 0px rgba(58, 57, 54, 0.863);
+    border-radius: 5px;
+  
+    
+}
+text{
+    margin-top: 10px;
+}
+#menu
+{
+    display: flow-root;
+    height: 50px;
+    background-color: rgba(255, 166, 0, 0.329);
+    float: right;
+    width: 50%;
+    border-radius: 10px 10px 10px 100px;
+}
+body
+{
+    width: 100%;
+    background-image: url("../ONG/img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    background-color: white;
+    background-attachment: fixed;
+}
+#logo
+{
+    background-image: url("../ONG/img/Untitled.png");
+    background-repeat: round;
+    margin-left: 40px;
+    width: 100px;
+    height: 100%;
+    background-color: orchid;
+    border-radius: 100px;
+}
+.content
+{
+    margin: auto;
+    padding: 10px;
+    width: 75%;
+    height: 400px;
+    background-color: rgba(248, 248, 248, 0.8);
+    border-radius: 10px;
+   
+    margin-top: 10%;
+    -webkit-box-shadow: 6px 8px 34px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 8px 34px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 8px 34px 0px rgba(0,0,0,0.75);
+}
+footer
+{
+    
+    height: 100px;
+    background-color: rgba(206, 205, 179, 0.219);
+    border-radius: 30px;
+    width: 99%;
+    margin: auto;
+    margin-top: 10%;
+    
+   
+}
+#footerDiv
+{
+  
+    padding: 20px;
+}

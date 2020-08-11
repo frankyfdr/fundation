@@ -1,0 +1,53 @@
+<html>
+<meta> 
+
+
+<head>
+    <link rel="stylesheet" href="cstyle.css">
+    <script src=".js"></script>
+</head>
+<div id="hearder">
+     <!--<div id="logo"></div> -->
+    <h1>Admin Page</h1>
+</div>
+<div id="menu">
+    <div class="btnMenu">
+        <button onclick="showDivMenu('about')" class="btnCpanel">About us</button>
+        <button onclick="showDivMenu('post')" class="btnCpanel">Post</button>
+    </div>
+</div>
+    <body>
+        <div class="content">
+           
+           <div id="Postcontent">
+            <button onclick="openNewPost()">+New</button>
+               <div class="listPost">teste</div>
+              
+           </div>
+           <div  style="margin-left: 10%;margin-top: 5%;" id="aboutus">
+            <p>About US</p>
+            <textarea style="width: 90%; height: 70%;" type="textarea" ></textarea>
+              
+           </div>
+        </div>
+
+        <div id="newPost">
+           <p>Title</p> <input id="txtTitle" type="text"/><br>
+           <input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" id="myFile" value="test" name="filename"/>
+          <br> 
+          
+          
+          <canvas style="border:1px solid #d3d3d3;" id="canvas">
+            <img src="./img/bg.jpg" style="width: 100px;height: 100px;" id="imageID" />
+          </canvas>
+           <p>TEXT</p>
+            <input id="txtarea" class="txtarea" type="text"/>
+           
+            <br>
+            <button onclick="newPost()">submit</button>
+        </div>
+    </body>
+    <footer>
+       <div id="footerDiv">teste</div>
+    </footer>
+</html>
